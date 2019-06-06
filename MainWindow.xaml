@@ -1,0 +1,59 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Clothilda_Sci_VB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="431">
+    <Grid Margin="-885,-178,-377,-196" HorizontalAlignment="Right" Width="1685">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF1F2F6" Offset="0.314"/>
+                <GradientStop Color="#FF91DFF9" Offset="0.448"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="o_Decimal" Content="." HorizontalAlignment="Left" Margin="947,334,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <TextBox x:Name="o_Display" HorizontalAlignment="Left" Height="23" Margin="908,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" IsEnabled="False" Background="Yellow" AutoWordSelection="True" FontFamily="Arial" TextAlignment="Right"/>
+        <Button x:Name="o_0" Content="0" HorizontalAlignment="Left" Margin="908,334,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="opp_equal" Content="=" HorizontalAlignment="Left" Margin="985,365,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_E" Content="e" HorizontalAlignment="Left" Margin="1074,274,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB9CCE8" FontWeight="SemiBold"/>
+        <Button x:Name="f_ln" Content="ln" HorizontalAlignment="Left" Margin="1074,334,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB9CCE8" FontWeight="SemiBold"/>
+        <Button x:Name="opp_pow" Content="^" HorizontalAlignment="Left" Margin="985,334,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFE8D2B2" FontWeight="SemiBold" Height="20"/>
+        <Button x:Name="o_Pi" Content="π" HorizontalAlignment="Left" Margin="1074,243,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB9CCE8" FontWeight="SemiBold"/>
+        <Button x:Name="f_log" Content="log" HorizontalAlignment="Left" Margin="1074,365,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB9CCE8" FontWeight="SemiBold"/>
+        <Button x:Name="o_2" Content="2" HorizontalAlignment="Left" Margin="947,305,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_1" Content="1" HorizontalAlignment="Left" Margin="908,305,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_3" Content="3" HorizontalAlignment="Left" Margin="985,305,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_5" Content="5" HorizontalAlignment="Left" Margin="947,274,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_4" Content="4" HorizontalAlignment="Left" Margin="908,274,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_6" Content="6" HorizontalAlignment="Left" Margin="985,274,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_8" Content="8" HorizontalAlignment="Left" Margin="947,243,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_7" Content="7" HorizontalAlignment="Left" Margin="908,243,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="o_9" Content="9" HorizontalAlignment="Left" Margin="985,243,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFC9DDFB" FontWeight="Bold"/>
+        <Button x:Name="opp_add" Content="+" HorizontalAlignment="Left" Margin="1022,334,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFE8D2B2"/>
+        <Button x:Name="opp_sub" Content="-" HorizontalAlignment="Left" Margin="1022,305,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFE8D2B2"/>
+        <Button x:Name="opp_mul" Content="*" HorizontalAlignment="Left" Margin="1022,274,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFE8D2B2"/>
+        <Button x:Name="opp_div" Content="÷" HorizontalAlignment="Left" Margin="1022,243,0,0" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.4,3.6" Background="#FFE8D2B2"/>
+        <Button x:Name="cmd_ClearAll" Content="Clear All" HorizontalAlignment="Left" Margin="908,365,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.4,3.6" Background="#FFE4BABA" Foreground="#FF2360A8" FontWeight="Bold"/>
+        <Button x:Name="f_asin" Content="asin" HorizontalAlignment="Left" Margin="1129,305,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Foreground="Black" Background="#FFB5E49A" FontWeight="SemiBold"/>
+        <Button x:Name="f_sinh" Content="sinh" HorizontalAlignment="Left" Margin="1129,334,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB0DA97" FontWeight="SemiBold"/>
+        <Button x:Name="f_sin" Content="sin" HorizontalAlignment="Left" Margin="1129,243,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFD8F7C5" FontWeight="SemiBold"/>
+        <Button x:Name="f_csc" Content="csc" HorizontalAlignment="Left" Margin="1129,274,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFC1F1A6" FontWeight="SemiBold"/>
+        <Button x:Name="f_csch" Content="csch" HorizontalAlignment="Left" Margin="1129,365,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FF98D873" FontWeight="SemiBold"/>
+        <Button x:Name="f_acos" Content="acos" HorizontalAlignment="Left" Margin="1184,305,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Foreground="Black" Background="#FFB5E49A" FontWeight="SemiBold"/>
+        <Button x:Name="f_cosh" Content="cosh" HorizontalAlignment="Left" Margin="1184,334,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB0DA97" FontWeight="SemiBold"/>
+        <Button x:Name="f_cos" Content="cos" HorizontalAlignment="Left" Margin="1184,243,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFD8F7C5" FontWeight="SemiBold"/>
+        <Button x:Name="f_sec" Content="sec" HorizontalAlignment="Left" Margin="1184,274,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFC1F1A6" FontWeight="SemiBold"/>
+        <Button x:Name="f_sech" Content="sech" HorizontalAlignment="Left" Margin="1184,365,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FF98D873" FontWeight="SemiBold"/>
+        <Button x:Name="f_atan" Content="atan" HorizontalAlignment="Left" Margin="1239,305,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Foreground="Black" Background="#FFB5E49A" FontWeight="SemiBold"/>
+        <Button x:Name="f_tanh" Content="tanh" HorizontalAlignment="Left" Margin="1239,334,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB0DA97" FontWeight="SemiBold"/>
+        <Button x:Name="f_tan" Content="tan" HorizontalAlignment="Left" Margin="1239,243,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFD8F7C5" FontWeight="SemiBold"/>
+        <Button x:Name="f_cot" Content="cot" HorizontalAlignment="Left" Margin="1239,274,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFC1F1A6" FontWeight="SemiBold"/>
+        <Button x:Name="f_coth" Content="coth" HorizontalAlignment="Left" Margin="1239,365,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FF98D873" FontWeight="SemiBold"/>
+        <RadioButton x:Name="opt_Deg" Content="Degrees" HorizontalAlignment="Left" Height="15" Margin="1075,217,0,0" VerticalAlignment="Top" Width="107" Visibility="Collapsed"/>
+        <RadioButton x:Name="opt_Rad" Content="Radians" HorizontalAlignment="Left" Height="15" Margin="1182,217,0,0" VerticalAlignment="Top" Width="107" Visibility="Collapsed"/>
+        <Button x:Name="f_sqrt" Content="sqrt()" HorizontalAlignment="Left" Margin="1074,305,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.4,3.6" Background="#FFB9CCE8" FontWeight="SemiBold"/>
+
+    </Grid>
+</Window>

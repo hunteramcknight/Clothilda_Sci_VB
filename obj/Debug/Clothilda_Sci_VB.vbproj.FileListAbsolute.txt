@@ -1,0 +1,17 @@
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\bin\Debug\Clothilda_Sci_VB.exe.config
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\bin\Debug\Clothilda_Sci_VB.exe
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\bin\Debug\Clothilda_Sci_VB.pdb
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\bin\Debug\Clothilda_Sci_VB.xml
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.vbprojResolveAssemblyReference.cache
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\MainWindow.g.vb
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Application.g.vb
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB_MarkupCompile.cache
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB_MarkupCompile.lref
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\MainWindow.baml
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.g.resources
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.Resources.resources
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.vbproj.GenerateResource.Cache
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.vbproj.CoreCompileInputs.cache
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.exe
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.xml
+C:\Users\Hunter A. McKnight\Desktop\Clothilda_Sci_VB\obj\Debug\Clothilda_Sci_VB.pdb
